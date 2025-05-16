@@ -1,0 +1,69 @@
+/* Variables */
+:root {
+    --primary: #0d6efd;
+    --blue-bavarian: #0066b4;
+    --blue-bavarian-dark: #0a58ca; /* More specific name */
+    --gold-bavarian: #f3c758;
+    --header-font: 'Montserrat', 'Helvetica Neue', sans-serif;
+    --body-font: 'Open Sans', Arial, sans-serif;
+    /* Add a reusable box-shadow variable */
+    --box-shadow-default: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Base Styles */
+.shadow-default {
+    box-shadow: var(--box-shadow-default);
+}
+
+/* ... other base styles ... */
+
+.contact-info {
+    background-color: var(--gray-light);
+    padding: 30px;
+    border-radius: 8px;
+    /* Using the reusable class */
+    box-shadow: var(--box-shadow-default);
+    margin-top: 30px;
+}
+
+/* ... other styles ... */
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 250px;
+    /* Using the reusable class */
+    box-shadow: var(--box-shadow-default);
+    transition: transform 0.3s ease;
+}
+
+/* ... other styles ... */
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Using the reusable class */
+    box-shadow: var(--box-shadow-default);
+}
+
+.country-basics {
+    background-color: var(--gray-light);
+    padding: 30px;
+    border-radius: 8px;
+    /* Using the reusable class */
+    box-shadow: var(--box-shadow-default);
+    margin: 40px 0;
+}
+
+.basics-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* Using the reusable class */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
